@@ -1,8 +1,8 @@
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
+} */
 h1,
 h2,
 h3,
@@ -16,15 +16,14 @@ ul {
 img {
   display: block;
 }
-.container { 
-  max-width: 
+.container {
+  /* max-width: 
   padding-left:  
   padding-right:  
   margin-left:  
-  margin-right:  
-  display:flex;
-  }
-  
+  margin-right:   */
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -33,7 +32,9 @@ body {
   line-height: 24px;
   letter-spacing: 2%;
 }
-
+.main_header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
@@ -46,9 +47,9 @@ body {
 .logo--studio {
   color: #2e2f42;
 }
-.navigation{
-  display:flex;
-  justify-content:flex-start
+.navigation {
+  display: flex;
+  justify-content: flex-start;
 }
 .nav--link {
   color: #2e2f42;
