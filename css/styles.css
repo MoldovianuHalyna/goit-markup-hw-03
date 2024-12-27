@@ -23,7 +23,7 @@ img {
 .main_header {
   border-bottom: 1px solid #e7e9fc;
 }
-.main-header .container {
+.container_header {
   display: flex;
   align-items: center;
 }
