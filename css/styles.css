@@ -26,6 +26,7 @@ img {
 .container_header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .container {
   max-width: 1158px;
@@ -44,6 +45,7 @@ body {
 .navigation {
   display: flex;
   align-items: center;
+  margin: 16px;
 }
 
 .logo {
@@ -55,7 +57,6 @@ body {
   font-weight: bold;
   font-size: 18px;
   margin-right: 76px;
-  margin-bottom: 16px;
 }
 .logo--studio {
   font-family: "Raleway", sans-serif;
@@ -91,6 +92,7 @@ body {
   display: flex;
   gap: 40px;
   align-items: center;
+  margin: 16px;
 }
 .address {
   font-style: normal;
@@ -219,9 +221,10 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .photo {
-  display: block;
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
 }
-
 .name {
   font-weight: 500;
   font-size: 20px;
